@@ -13,7 +13,7 @@ Install the npm globally with the following:
 
 To create a new instance of Evented.io use:
 
-`evented.io create ProjectName`
+`evented-cli create ProjectName`
 
 The above will build the folder `./ProjectName` and populate it with the Evented.io
 foundational framework.
@@ -23,6 +23,6 @@ foundational framework.
 The command tool can be used to easily run the Evented.io service. You
 must currently be in the root of a Evented.io project, then use:
 
-`evented.io start`
+`evented.cli start`
 
 Which will start the Evented.io service.
