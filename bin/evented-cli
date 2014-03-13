@@ -12,6 +12,7 @@ if [ $COMMAND = "create" ]; then
     cd $DIR
     npm install
     cd client/
+    rm .git
     npm install
     cd ../..
   fi
