@@ -1,0 +1,22 @@
+#!/bin/bash
+
+COMMAND=$1
+DIR=$2
+
+if [ $COMMAND = "create" ]; then
+
+  if [ -n $DIR ]
+    then
+    git clone https://github.com/aitoroses/evented-seed --recursive
+    mv -v ./evented-seed ./$DIR
+    cd $DIR
+    npm install
+    cd client/
+    npm install
+    cd ../..
+  fi
+fi
+
+if [ $COMMAND = "start" ]; then
+    node index.js
+fi
