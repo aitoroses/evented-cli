@@ -1,6 +1,6 @@
 {
   "name": "evented-cli",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "NPM Command line tool for Managing Evented.io projects.",
   "repository": {
     "type": "git",
